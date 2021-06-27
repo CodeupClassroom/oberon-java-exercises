@@ -1,3 +1,5 @@
+package fundamentals;
+
 public class SyntaxTypesVariables {
 
     // Intellij Keyboard Shortcuts Cheatsheet - useful shortcuts!

@@ -1,3 +1,5 @@
+package fundamentals;
+
 import java.util.Scanner;
 
 public class ConsoleIO {
@@ -136,7 +138,6 @@ public class ConsoleIO {
 //        sc.nextLine(); // clears out new line
 //        String month = sc.nextLine();
 //        System.out.println("You were born " + month + " " + day);
-
 
     }
 }
