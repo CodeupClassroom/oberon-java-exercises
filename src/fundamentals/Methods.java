@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Methods {
     
-    //    --------------- syntax ---------------
+    //    --------------- SYNTAX ---------------
 //    public - how visible your method is to other classes.
 //    static - available for this class and not an instance of a class
 //     void, String, int - define what the data type is of what's being
