@@ -1,5 +1,7 @@
 package fundamentals;
 
+import java.util.Scanner;
+
 public class SyntaxTypesVariables {
 
     // Intellij Keyboard Shortcuts Cheatsheet - useful shortcuts!
@@ -17,7 +19,7 @@ public class SyntaxTypesVariables {
 
         // Notice there is a red squiggly below?
         // Intellisense is trying to tell you it's an error
-        System.out.println("Hi! My name is what?");
+//        System.out.println("Hi! My name is what?");
 
         // Try to compile this without a semicolon
 //        System.out.println("My name is who?");
@@ -296,6 +298,7 @@ public class SyntaxTypesVariables {
 
         // When we get to OOP, you'll see ways we can combine casting with
         // a concept you learned previously... Mapping!
-
     }
+
+
 }
