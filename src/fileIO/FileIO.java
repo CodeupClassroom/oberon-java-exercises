@@ -1,8 +1,9 @@
 package fileIO;
 
-import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FileIO {
 
@@ -22,11 +23,23 @@ public class FileIO {
 
         // Print out the final location of the file
         System.out.println(path.toAbsolutePath());
+
+        // Try to print the contents of the file BEFORE we write
         IOUtil.tryPrintContents(path);
 
+        // Try to write to the file
+        IOUtil.tryWriteToFile(getContent(), path);
+
+        // Try to print the contents of the file AFTER we write
+        IOUtil.tryPrintContents(path);
     }
 
+    public static List<String> getContent(){
+        List<String> contentToWrite = new ArrayList<>();
+        contentToWrite.add("This is a new line!");
+        contentToWrite.add("ANOTHER LINE");
+        contentToWrite.add("ANOTHER NOTHER LINE!!!!");
 
-
-
+        return contentToWrite;
+    }
 }

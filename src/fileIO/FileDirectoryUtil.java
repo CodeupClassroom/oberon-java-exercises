@@ -34,6 +34,7 @@ public class FileDirectoryUtil {
             System.out.println("The file at: " + path.toAbsolutePath() + " already exists");
         }
     }
+
     public static Path getPath(String filename) {
         return Paths.get(filename);
     }
@@ -43,6 +44,7 @@ public class FileDirectoryUtil {
     public static Path getPath(String parentDirectory, String childDirectory, String filename) {
         return Paths.get(parentDirectory, childDirectory, filename);
     }
+
     public static boolean doesPathExist(Path path) {
         return Files.exists(path);
     }
