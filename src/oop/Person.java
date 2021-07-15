@@ -24,6 +24,10 @@ public class Person {
         this.nationality = nationality;
     }
 
+    public Person (String fullName){
+        this.fullName = fullName;
+    }
+
     public Person(){
     }
 
@@ -124,7 +128,7 @@ public class Person {
 
     public String getFullName(){
         // Notice the use of our old friend 'this'
-        return this.firstName + " " + this.lastName;
+        return this.fullName;
 
         // We use 'this' to signify that we want data from THIS instance of Person, as opposed to any other instance.
         // (think like you have multiple Person objects in your calling code)
